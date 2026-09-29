@@ -5,13 +5,31 @@ Stand: 29.09.2026. Alles, was nicht sicher belegt war, ist **nicht** auf der Web
 ## Fehlt ganz
 
 1. **Impressum** (Pflicht nach § 5 DDG): Inhaber/Betreiber, Rechtsform, ladungsfähige Anschrift, ggf. USt-IdNr. Nirgends online gefunden.
-2. **Datenschutzerklärung** (Pflicht, v. a. wegen Reservierungslink zu resmio und Links zu Facebook/Instagram).
+2. **Datenschutzerklärung** (Pflicht). Inhalt siehe Abschnitt „Datenschutz und Cookies“ unten.
 3. **Fotos**: Gerichte, Innenraum, Bar, Außenansicht, Küchenchef. Die Facebook- und Instagram-Seiten sind ohne Login nicht auslesbar, und fremde Fotos dürfen nicht einfach übernommen werden. Die Seite ist deshalb bewusst rein typografisch gestaltet.
 4. **Logo** in Vektorform (SVG/PDF). Aktuell ist „Collo“ nur als Schriftzug gesetzt.
 5. **Getränkekarte** (Wein, Aperitivo, Cocktails, Bier, Softdrinks, Preise). Auf der eigenen Seite nur Speisen.
 6. **Allergene und Zusatzstoffe** zur Speisekarte (Pflichtangabe, muss mindestens im Restaurant verfügbar sein).
 7. **Desserts**: stehen auf keiner gefundenen Karte.
 8. **Kennzeichnung vegetarisch/vegan/scharf**: nicht angegeben, deshalb weggelassen.
+
+## Datenschutz und Cookies (geprüft am 29.09.2026)
+
+**Cookie-Banner: nicht nötig.** Die Live-Seite setzt keine Cookies, nutzt weder localStorage noch sessionStorage und lädt nichts von fremden Servern (nur `gbilinus.github.io`). Schriften liegen lokal. Karte, Facebook, Instagram und resmio sind nur Links, keine Einbettungen. Nach § 25 TDDDG braucht es dann keine Einwilligung. Das bleibt nur so, solange kein Tracking (Google Analytics, Meta-Pixel), keine eingebettete Google-Karte und keine Social-Media-Einbettungen dazukommen.
+
+**Datenschutzerklärung muss trotzdem rein** (Art. 13 DSGVO), Inhalt:
+- Verantwortlicher: Name und Anschrift des Betreibers von Collo (fehlt, siehe Punkt 1).
+- Hosting: GitHub Inc. (USA) speichert beim Aufruf Server-Logs mit IP-Adresse, Zeit, Browser. Rechtsgrundlage Art. 6 Abs. 1 lit. f DSGVO. Übermittlung in die USA über das EU-US Data Privacy Framework, bei dem GitHub zertifiziert ist.
+- Online-Reservierung über resmio GmbH, Katzwanger Str. 150, 90461 Nürnberg: Name, E-Mail, Telefon, Personenzahl, Wunschzeit. resmio arbeitet als Auftragsverarbeiter, Server in der EU. resmio stellt einen Mustertext für die Datenschutzerklärung bereit.
+- Kontakt per Telefon und E-Mail (Gmail = Google).
+- Externe Links (Google Maps, Facebook, Instagram): Daten erst beim Anklicken.
+- Rechte der Betroffenen (Auskunft, Löschung, Widerspruch usw.) und Beschwerderecht bei der Landesbeauftragten für den Datenschutz Niedersachsen.
+
+**Auftragsverarbeitungsvertrag (AVV) mit resmio:** Collo ist für die Gästedaten verantwortlich. resmio bietet einen AVV nach Art. 28 DSGVO an (Formular ausfüllen, an support@resmio.com). Collo fragen, ob der schon unterschrieben ist.
+
+**Hosting auf Dauer:** GitHub Pages ist laut GitHub nicht als kostenloses Hosting für ein Geschäft gedacht („not intended for or allowed to be used as a free web-hosting service to run your online business“). Für eine Restaurant-Seite ist das eine Grauzone. Für die offizielle Seite besser: eigene Domain und Hosting bei einem Anbieter in Deutschland/EU mit AVV (z. B. Hetzner, IONOS, Strato, All-inkl, netcup). Dann in der Datenschutzerklärung diesen Anbieter statt GitHub nennen.
+
+**Kein Rechtsrat.** Die fertigen Texte für Impressum und Datenschutz am besten mit einem Generator (z. B. e-recht24, Datenschutz-Generator.de von Dr. Schwenke) erstellen oder von einem Anwalt prüfen lassen.
 
 ## Widersprüchlich oder nicht bestätigt (deshalb weggelassen)
 
