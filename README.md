@@ -12,6 +12,7 @@ Live: https://gbilinus.github.io/Collo/
 | `template.html` | Seitenaufbau mit Platzhaltern |
 | `build.py` | Baut `index.html` aus Template und Karte |
 | `style.css` | Gestaltung |
+| `impressum.html`, `datenschutz.html` | Rechtliche Seiten (von Hand gepflegt, fehlende Angaben gelb markiert) |
 | `main.js` | „Jetzt geöffnet?“-Anzeige, heutiger Tag, aktive Kategorie |
 | `fonts/` | Bodoni Moda und Karla, lokal (keine externen Server, DSGVO) |
 | `FEHLT.md` | Was noch fehlt oder unsicher ist |
