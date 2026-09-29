@@ -3,6 +3,16 @@
 (function () {
   "use strict";
 
+  // Neu geladen mit Sprungmarke in der Adresse (z. B. #pizza nach Klick in der Karte):
+  // Marke entfernen und oben anfangen. Links von außen auf #karte funktionieren weiter.
+  var nav = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+  if (nav && nav.type === "reload") {
+    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+    var toTop = function () { window.scrollTo({ top: 0, left: 0, behavior: "instant" }); };
+    toTop();
+    window.addEventListener("load", toTop);
+  }
+
   // Öffnungszeiten laut Collo: Mo, Mi–So 17–23 Uhr, Di Ruhetag.
   var OPEN = 17, CLOSE = 23, REST_DAY = 2;
   var DAYS = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
